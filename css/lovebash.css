@@ -3,15 +3,11 @@ body{
 	box-sizing: border-box;
 	text-align: center;
 	background-image: url("../img/sopbackground.jpg");
-	/*background-color: #f442a7;*/
-	/*background-color: #d2fccc;*/
 }
 
 h1{
 	font-size: 2.5em;
 	margin-bottom: 0px;
-	/*background-image: url("../img/sopstationary.png");*/
-	/*background-color: rgba(255,255,255,.8);*/
 	width: 40%;
 	margin-left: auto;
 	margin-right: auto;
@@ -24,7 +20,6 @@ h1{
 h2{
 	margin-left: 40px;
 	margin-bottom: -15px;
-	/*margin-top: 70px;*/
 	text-align: left;
 	font-size: 2em;
 
@@ -66,6 +61,8 @@ a:hover{
 
 #letter{
 	background-image: url("../img/sopstationary.png");
+	background-repeat: no-repeat;
+	background-size: cover;
 	padding-bottom: 17px;
 	background-color: white;
 	margin-right: 20px;
@@ -74,10 +71,10 @@ a:hover{
 p{
 	width: 500px;
 	margin-top: 20px;
-	/*display: inline-block;*/
 	margin-right: 40px;
 	padding-left: 40px;
 	font-size: 1.25em;
+	margin-bottom: 10px;
 }
 
 ul{
@@ -85,8 +82,6 @@ ul{
 	list-style-type: none;
 	margin-top: 40px;
 	background-color: #ffb2e1;
-	/*padding-top: -40px;*/
-	/*border: solid;*/
 	padding-right: 10px;
 	padding-left: 20px;
 	padding-top: 10px;
@@ -96,7 +91,6 @@ ul{
 }
 span{
 	color: #f442a7;
-	/*background-color: red;*/
 }
 
 div{
@@ -104,12 +98,10 @@ div{
 	text-align: left;
 }
 
-span:hover{
-	background-color: #ffb7e3;
-}
-
 #git{
 	background-image: url("../img/sopstationary.png");
+	background-repeat: no-repeat;
+	background-size: cover;
 	padding-bottom: 0px;
 	margin-right: 20px;
 
