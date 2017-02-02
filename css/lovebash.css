@@ -2,36 +2,97 @@ body{
 	font-family: 'Shadows Into Light Two', cursive;
 	box-sizing: border-box;
 	text-align: center;
+	background-image: url("../img/sopbackground.jpg");
+	/*background-color: #f442a7;*/
+	/*background-color: #d2fccc;*/
 }
 
 h1{
+	font-size: 2.5em;
+	margin-bottom: 0px;
+	/*background-image: url("../img/sopstationary.png");*/
+	/*background-color: rgba(255,255,255,.8);*/
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	color: #f442a7;
+
+}
+
+h2{
 	margin-left: 40px;
-	margin-bottom: -20px;
-	margin-top: 70px;
+	margin-bottom: -15px;
+	/*margin-top: 70px;*/
 	text-align: left;
+	font-size: 2em;
+
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color: #f442a7;
+}
+.navigation{
+	list-style: none;
+	display: inline-block;
+	background-color: rgba(255,255,255,.5);
+	width: 75%;
+	font-size: 1.75em;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	border-top: dotted;
+	border-bottom: dotted;
+	border-width: 2px;
+
+}
+
+.navitem{
+	width: 33%;
+	display: inline-block;
+	float: left;
 }
 .greeting{
 	text-align: center;
 	margin: 0px;
 }
+
+#letter{
+	background-image: url("../img/sopstationary.png");
+	padding-bottom: 17px;
+	background-color: white;
+	margin-right: 20px;
+
+}
 p{
 	width: 500px;
+	margin-top: 20px;
 	/*display: inline-block;*/
 	margin-right: 40px;
 	padding-left: 40px;
+	font-size: 1.25em;
 }
 
 ul{
 	display: inline-block;
 	list-style-type: none;
 	margin-top: 40px;
-	/*padding-top: 40px;*/
-	border: solid;
-	padding-right: 5px;
+	background-color: #ffb2e1;
+	/*padding-top: -40px;*/
+	/*border: solid;*/
+	padding-right: 10px;
 	padding-left: 20px;
 	padding-top: 10px;
 	padding-bottom: 15px;
 	text-align: left;
+	max-width: 40%;
 }
 span{
 	color: #f442a7;
@@ -43,3 +104,13 @@ div{
 	text-align: left;
 }
 
+span:hover{
+	background-color: #ffb7e3;
+}
+
+#git{
+	background-image: url("../img/sopstationary.png");
+	padding-bottom: 0px;
+	margin-right: 20px;
+
+}
